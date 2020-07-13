@@ -1,5 +1,11 @@
 # Amrit-Tulya-API
-This is an API for SadGuru's Amrit Tulya - Tea Shop. This API is used to fetch/add/delete items from the Tea Inventory. 
+This is an API for SadGuru's Amrit Tulya - Tea Shop. 
+
+This API is used to fetch/add/delete items from the Tea Inventory. 
+
+This API uses EF Core as its ORM for performing Database related operations.
+
+Also, xUnit has been used for implementing unit tests.
 
 This API is locally hosted on port 3000.
 
