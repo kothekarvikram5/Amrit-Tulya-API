@@ -9,9 +9,17 @@ Also, xUnit has been used for implementing unit tests.
 
 This API is locally hosted on port 3000.
 
+Check for the port while running the app. If the port is changed, you need to update the same into UI Project as well.
+
+## Set Up the Database.
+
+Update Connection String of your Database (I used SQL Server 2014) in the appsettings.json file, under "ConnectionString->TeaShopDBConnection"
+
+After Updating Connection String, run 'update-database' command in Package Manager Console(PM) in Visual Studio. This will set up the Database for our app.
+
 ## Deployment 
 For Simple Deployment - goto ..\bin\Release\netcoreapp3.1
 
 In the above path, you will find the published code for Windows OS, which you can directly deploy.
 
-To configure this for others environments, again need to configure from the code.
+To configure this for other environments, again need to configure from the code.
