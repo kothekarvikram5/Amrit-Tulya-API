@@ -11,6 +11,8 @@ This API is locally hosted on port 3000.
 
 Check for the port while running the app. If the port is changed, you need to update the same into UI Project as well.
 
+UI path - https://github.com/kothekarvikram5/Sadguru-Amrit-Tulya
+
 ## Set Up the Database.
 
 Update Connection String of your Database (I used SQL Server 2014) in the appsettings.json file, under "ConnectionString->TeaShopDBConnection"
